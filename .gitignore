@@ -1,0 +1,13 @@
+# API credentials. Copy config.example.json to config.json in each project folder.
+config.json
+.env
+
+# Inputs not redistributed (course data, publisher PDFs, vector stores)
+*.csv
+Papers/
+Salesforce/
+*vectordb*/
+*_db_name/
+
+__pycache__/
+.ipynb_checkpoints/
